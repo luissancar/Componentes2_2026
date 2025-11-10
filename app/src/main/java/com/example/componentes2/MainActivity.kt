@@ -12,9 +12,20 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.componentes2.componentes.MyAlerDialog
+import com.example.componentes2.componentes.MyBadgeBox
+import com.example.componentes2.componentes.MyCard
 import com.example.componentes2.componentes.MyCheckBoxMain
 import com.example.componentes2.componentes.MyCheckBoxMain2
 import com.example.componentes2.componentes.MyCheckBoxMain3
+import com.example.componentes2.componentes.MyDivider
+import com.example.componentes2.componentes.MyDropDownMenu
+import com.example.componentes2.componentes.MyRadioButton1
+import com.example.componentes2.componentes.MyRadioButton2
+import com.example.componentes2.componentes.MyRadioButton3
+import com.example.componentes2.componentes.MyRadioButton4
+import com.example.componentes2.componentes.MySlider
+import com.example.componentes2.componentes.MySlider2
 import com.example.componentes2.ui.theme.Componentes2Theme
 
 class MainActivity : ComponentActivity() {
@@ -37,7 +48,19 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
-        MyCheckBoxMain3()
+        //MyCheckBoxMain3()
+        //  MyRadioButton1()
+
+        // MyRadioButton2()
+
+        // MyRadioButton3()
+        // MyRadioButton4()
+        //MyCard()
+        //MyBadgeBox()
+        //MyDivider()
+       // MyDropDownMenu()
+        //MySlider2()
+        MyAlerDialog()
     }
 }
 
